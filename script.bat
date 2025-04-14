@@ -2,13 +2,13 @@
 title Changer le menu contextuel Windows 11
 color 0B
 
-:: Fonction pour détecter la version de Windows
+:: Fonction pour detecter la version de Windows
 for /f "tokens=4-5 delims=. " %%i in ('ver') do set version=%%i.%%j
 
 echo =====================================================
 echo   DETECTION DE LA VERSION DE WINDOWS
 echo =====================================================
-echo Version détectée : %version%
+echo Version detectee : %version%
 echo =====================================================
 
 :: Menu principal
